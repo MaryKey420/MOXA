@@ -1258,7 +1258,7 @@ footer {
     letter-spacing: 0.47999998927116394px;
     text-align: left;
     color: #161513;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .changes {
@@ -1326,9 +1326,9 @@ footer {
     font-weight: 300;
     line-height: 22px;
     letter-spacing: 0.47999998927116394px;
-    text-align: center;
+    text-align: left;
     margin-top: 12px;
-    margin-right: 40px;
+    margin-right: 35px;
   }
 
   .sub-inp {
@@ -1359,7 +1359,7 @@ footer {
     color: #e6e3de;
     background-color: #161513;
     border: 2px solid #161513;
-    padding: 2px 56px 2px 55px;
+    padding: 2px 57px 2px 56px;
   }
 
   footer {
@@ -1403,9 +1403,9 @@ footer {
     font-family: Bai Jamjuree;
     font-size: 14px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 18px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
   }
 
   .soc {
@@ -1426,5 +1426,110 @@ footer {
 
   .in {
     margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 400px) {
+  .info .name {
+    font-size: 15px;
+    margin-right: 7px;
+  }
+
+  .info .lead-prod {
+    font-size: 26px;
+  }
+
+  .short-info {
+    left: 24px;
+  }
+
+  .web-aw {
+    margin-bottom: 8px;
+  }
+
+  .prod-aw {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: -2px;
+  }
+
+  .award {
+    padding: 40px 34px 46px 17px;
+  }
+
+  .h1-serv {
+    margin-bottom: 7px;
+  }
+
+  .serv {
+    line-height: 24px;
+  }
+
+  .art-direction p {
+    min-width: 135px;
+    font-size: 13px;
+  }
+
+  .div-art {
+    padding: 12px 27px 6px 27px;
+  }
+
+  .art-exp {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 3px;
+  }
+
+  .changes {
+    width: 49%;
+  }
+
+  .explain-top {
+    margin-top: -5px;
+  }
+
+  .cus {
+    height: 60px;
+    max-width: 85px;
+  }
+
+  .grid {
+    grid-gap: 6px;
+  }
+
+  .svg-cus {
+    margin-top: -19px;
+    margin-left: -16px;
+    margin-bottom: 7px;
+    width: 50px;
+  }
+
+  .services {
+    margin: 60px 7px 0 7px;
+  }
+
+  .big-star {
+    top: -223%;
+  }
+
+  header {
+    padding: 27px 60px 27px 65px;
+  }
+
+  footer {
+    height: 175px;
+  }
+
+  .sub-our {
+    font-size: 16px;
+  }
+
+  .gui-p {
+    font-size: 14px;
+    margin-right: 39px;
+  }
+
+  .sub-but {
+    padding: 2px 58px 2px 58px;
   }
 }
